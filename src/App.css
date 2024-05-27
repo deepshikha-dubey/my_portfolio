@@ -1,0 +1,136 @@
+
+
+.skils{
+  display:grid;
+  grid-template-columns: repeat(4, 5.5rem);
+  grid-gap:1.5rem;
+}
+
+.skills{
+  margin-left: 100px;
+  padding: 30px;
+}
+.portfolio_image img{
+    width: 80%;
+}
+.portfolio_image{
+  cursor: pointer;
+  display: grid;
+ grid-template-columns: repeat(4, 15.5rem);
+  gap: 20px;
+}
+.portfolioImage{
+  padding: 10px;
+  border: solid 1px black;
+  text-align: center;
+}
+.portfolioImage:hover{
+  background-color: #2E8DB8;
+  color: white;
+}
+
+.contactme{
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+.form{
+  padding: 20px;
+  border: 1px solid #2E8DB8;
+}
+
+@media only screen and (max-width: 600px) {
+  .my_skills{
+    justify-items: center;
+    display: flex;
+  }
+  .my_skills img{
+           width: 15%;
+           height: 40%;     
+  }
+  .skiltext{
+    font-size: 30px;
+  }
+ .myskills  {
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .absolute  {
+    margin-top: -140px;
+     width: 150px; 
+  }
+.homeimage{
+  width: 250px;
+}
+  .skils{
+    align-items: center;
+    display:grid;
+    grid-template-columns: repeat(3, 3.5rem);
+    grid-gap:0.3rem;
+  }
+  .skills{
+    padding: 5px;
+    font-size: 14px;
+  }
+ .skils img{
+    width: 50px;
+    height: 50px;
+   align-items: center;
+    
+  }
+  .my_portfolio{
+    text-align: center;
+    font-size: 25px;
+  }
+  .companies{
+    text-align: center;
+    width: auto;
+  }
+  .companies img{
+    width: 20%;
+    padding: 15px;
+    margin: -5px;
+  }
+  .contact{ 
+    text-align: center;
+    align-items: center;
+  }
+  .contact_me{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer{
+    font-size: 13px;
+    padding: 20px;
+  }
+  .portfolio_image{
+    display: grid;
+   grid-template-columns: repeat(2, 10.9rem);
+    gap: 20px;
+    text-align: center;
+  }
+  .portfolio_image img{
+    width: 100%;
+
+}
+.aboutme_des{
+  font-size: 13px;
+  margin-top: 10px;
+}
+.contactme{
+  text-align: center;
+  font-size: 13px;
+}
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
